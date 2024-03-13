@@ -1,5 +1,6 @@
 Hola! Soy Ori, estudiante de Ing. en Sistemas
-En ese repositorio voy  aestar subiendo ejercicios de la guía de Algoritmos de la UTN.
+
+En ese repositorio voy  a estar subiendo ejercicios de la guía de Algoritmos de la UTN.
 
 Guía: https://aed-frre.github.io/
 
