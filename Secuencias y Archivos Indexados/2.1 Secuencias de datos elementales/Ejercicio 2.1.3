@@ -15,13 +15,11 @@ ALGORITMO
     ARR(salida)
 
     Mientras NFDS(sec) hacer
-        Si v = "$" entonces
-            AVZ(sec,v)
-        Fs
-
         Mientras v <> "$" hacer
             ESC(v,salida)
             AVZ(salida,v1)
         Fm
+
+        AVZ(sec,v)
     Fm
 FA
