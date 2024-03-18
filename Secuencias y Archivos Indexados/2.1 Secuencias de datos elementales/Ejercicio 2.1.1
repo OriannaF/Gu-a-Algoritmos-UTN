@@ -1,0 +1,21 @@
+// Dada una secuencia de letras del alfabeto que finaliza con una marca '*', contar cuantas letras "A" hay en la secuencia.
+
+ACCION Ejercicio2.1.1 ES
+AMBIENTE
+
+    sec: secuencia de caracter
+    v1: caracter
+    
+ALGORITMO
+
+    ARR(sec) ; AVZ(sec,v1)
+
+    Mientras NFDS(sec) hacer
+        Mientras v1 <> "*" Y v1 = "A" hacer
+            contadorA = contadorA + 1
+        Fm
+    Fm
+
+    Esc("La cantidad de letras A es de ", contadorA)
+
+FA

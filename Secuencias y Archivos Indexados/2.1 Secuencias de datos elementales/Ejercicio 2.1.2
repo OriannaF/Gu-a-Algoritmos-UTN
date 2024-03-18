@@ -1,0 +1,20 @@
+// Dada una secuencia de letras del alfabeto que finaliza con la letra "Z", contar cuantas consonantes hay en la secuencia.
+
+ACCION Ejercicio2.1.2 ES
+AMBIENTE
+
+    consonante'nt: {"A","E","I","O","U"}
+    sec: secuencia de caracter
+    v: caracter
+    consonantes: entero
+
+PROCESO
+
+    Repetir
+        Si v NO EN consonante'nt entonces
+            consonantes = consonantes + 1
+        Fs
+    Hasta v = "Z"
+
+    Esc("La cantidad de letras consonante en la secuencia es de ", consonantes)
+FA
